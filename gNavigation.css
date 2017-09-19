@@ -1,0 +1,15 @@
+.gd-fly-enter {
+  transform: translateX(100%);
+}
+
+.gd-fly-enter-active {
+  transition: all 0.4s cubic-bezier(.55, 0, .1, 1);
+}
+
+.gd-leaveFly-enter-active {
+  transition: all 0.4s cubic-bezier(.55, 0, .1, 1);
+}
+
+.gd-leaveFly-enter {
+  transform: translateX(-100%);
+}
